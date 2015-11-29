@@ -1,0 +1,60 @@
+@(id: String, ticketForm: Form[TicketModel])(implicit msg: play.api.i18n.Messages)
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+@main("Ticket-Self-Service") {
+    
+    <!-- Begin page content -->
+	<div class="container">
+		<div class="page-header">
+			<h1>Update Ticket</h1>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-8">
+				@form(routes.Application.update(id)) {
+					<fieldset>
+
+						@inputText(ticketForm("custname"), '_label -> "Cust Name*", 'class -> "form-control",'readonly->true)
+						@inputText(ticketForm("custmobile"), '_label -> "Cust Mobile*", 'class -> "form-control",'readonly->true)
+						@textarea(ticketForm("custaddress"), '_label -> "Address*", 'class -> "form-control",'readonly->true)
+						@inputText(ticketForm("pincode"), '_label -> "Pincode*", 'class -> "form-control",'readonly->true)
+						@inputText(ticketForm("createdby"), '_label -> "Created By*", 'class -> "form-control",'readonly->true)
+						@inputText(ticketForm("assignedto"), '_label -> "Assigned To*", 'class -> "form-control",'required->true,'id->"assigned-to",'onblur->"validateAssigned()")
+						@textarea(ticketForm("remark"), '_label -> "Remarks", 'class -> "form-control")
+						@select(ticketForm("status"), options("open"->"Open","close"->"Close"),'id->"status")
+
+
+					</fieldset>
+				
+					<div class="actions">
+						<input type="submit" value="Update this Ticket	"	class="btn btn-primary" onclick="validateAssigned()"> or
+						<a href="@routes.Application.list()" class="btn btn-default">Cancel</a>
+					</div>
+				}
+			</div>
+			<div class="col-md-4">
+				@info()
+			</div>
+		</div>
+
+	</div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript">
+
+
+
+    function validateAssigned() {
+    if ( $ ( "#assigned-to" ).val().trim().length == 0 )
+    {
+      alert ( "You must have to assign this ticket to some one since this in open state" )
+     $ ( "#assigned-to" ).focus ( )
+    }
+
+    }
+	</script>
+}

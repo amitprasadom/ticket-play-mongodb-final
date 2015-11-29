@@ -1,0 +1,48 @@
+@(TicketForm: Form[TicketModel])(implicit msg: play.api.i18n.Messages)
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f)}
+
+@main("Ticket-Self-Service") {
+	<!-- Begin page content -->
+	<div class="container">
+		<div class="page-header">
+			<h1>Generate Ticket</h1>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-8">
+				@form(routes.Application.save()) {	
+					<fieldset>@formElements(TicketForm)</fieldset>
+				
+					<div class="actions" style="margin-right:200px">
+						<input type="submit" value="Generate.." class="btn btn-primary">
+						<a href="@routes.Application.list()" class="btn btn-default">Cancel</a>
+					</div>			
+				}
+			</div>
+			<div class="col-md-4">
+				@info()
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+	<script type="text/javascript">
+
+	    $("#created-date").hide()
+	    $("#status").val("new")
+	    $("#id-assignto").blur(function () {
+	      if($("#id-assignto").val().length!=0){
+	       $("#status").val("open")
+
+	      }
+	      else
+	      {
+	       $("#status").val("new")
+	      }
+
+	   });
+	</script>
+}

@@ -1,0 +1,948 @@
+2015-11-29 04:36:08,694 [INFO] from play.api.libs.concurrent.ActorSystemProvider in pool-4-thread-5 - Starting application default Akka system: application
+2015-11-29 04:36:09,172 [INFO] from play.core.server.NettyServer$ in pool-4-thread-5 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2015-11-29 04:40:19,120 [WARN] from application in ForkJoinPool-1-worker-1 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 04:40:26,262 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-1-worker-1 - Starting application default Akka system: application
+2015-11-29 04:40:30,573 [WARN] from application in ForkJoinPool-1-worker-1 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 04:40:35,062 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoPlugin starting...
+2015-11-29 04:40:36,015 [INFO] from application in ForkJoinPool-1-worker-1 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:40:36,161 [INFO] from play.api.Play$ in ForkJoinPool-1-worker-1 - Application started (Dev)
+2015-11-29 04:40:40,519 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi starting...
+2015-11-29 04:40:41,384 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 04:40:42,087 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:53:26,438 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 04:53:26,453 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 04:53:26,848 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 04:53:26,869 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-5#487720302] stopped.
+2015-11-29 04:53:27,119 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 04:53:27,166 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-2#-831302169] stopped.
+2015-11-29 04:53:27,171 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 04:53:27,192 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 04:53:27,452 [WARN] from application in application-akka.actor.default-dispatcher-7 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 04:53:27,789 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-7 - Starting application default Akka system: application
+2015-11-29 04:53:27,944 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 04:53:28,255 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin starting...
+2015-11-29 04:53:28,257 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:53:28,260 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-7 - Application started (Dev)
+2015-11-29 04:53:28,304 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi starting...
+2015-11-29 04:53:28,309 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 04:53:28,364 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:56:04,685 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 04:56:04,686 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 04:56:04,861 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-11#-1128497083] stopped.
+2015-11-29 04:56:04,862 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 04:56:04,890 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi stopping...
+2015-11-29 04:56:04,929 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-8#714214308] stopped.
+2015-11-29 04:56:04,930 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 04:56:04,961 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-3 - Shutdown application default Akka system: application
+2015-11-29 04:56:05,177 [WARN] from application in application-akka.actor.default-dispatcher-7 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 04:56:05,568 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-7 - Starting application default Akka system: application
+2015-11-29 04:56:05,741 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 04:56:05,974 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin starting...
+2015-11-29 04:56:05,975 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:56:05,975 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-7 - Application started (Dev)
+2015-11-29 04:56:05,997 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 04:56:06,000 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 04:56:06,077 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:59:44,970 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 04:59:44,970 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-11 - No mongo-async-driver configuration found
+2015-11-29 04:59:45,060 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 04:59:45,061 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-17#-1524285261] stopped.
+2015-11-29 04:59:45,080 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 04:59:45,122 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-14#-793399328] stopped.
+2015-11-29 04:59:45,124 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 04:59:45,137 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 04:59:45,270 [WARN] from application in application-akka.actor.default-dispatcher-11 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 04:59:45,649 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-11 - Starting application default Akka system: application
+2015-11-29 04:59:45,820 [WARN] from application in application-akka.actor.default-dispatcher-11 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 04:59:46,145 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin starting...
+2015-11-29 04:59:46,146 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 04:59:46,147 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-11 - Application started (Dev)
+2015-11-29 04:59:46,174 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 04:59:46,179 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 04:59:46,248 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:04:54,873 [ERROR] from application in New I/O worker #7 - 
+
+! @6o9klmfa5 - Internal server error, for (GET) [/ticket] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value ticketnumber is not a member of models.TicketModel]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 05:06:03,974 [ERROR] from application in New I/O worker #7 - 
+
+! @6o9km0dje - Internal server error, for (GET) [/ticket] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value id is not a member of models.TicketModel]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 05:07:20,341 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:07:20,342 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:07:20,420 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-23#340210012] stopped.
+2015-11-29 05:07:20,422 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:07:20,448 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:07:20,487 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:07:20,491 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-20#-70918517] stopped.
+2015-11-29 05:07:20,525 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:07:20,993 [WARN] from application in application-akka.actor.default-dispatcher-3 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:07:21,486 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-3 - Starting application default Akka system: application
+2015-11-29 05:07:21,686 [WARN] from application in application-akka.actor.default-dispatcher-3 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:07:22,087 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoPlugin starting...
+2015-11-29 05:07:22,088 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:07:22,088 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-3 - Application started (Dev)
+2015-11-29 05:07:22,132 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 05:07:22,136 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 05:07:22,194 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:10:09,824 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:10:09,825 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-9 - No mongo-async-driver configuration found
+2015-11-29 05:10:10,038 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:10:10,056 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-29#-891739871] stopped.
+2015-11-29 05:10:10,098 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi stopping...
+2015-11-29 05:10:10,155 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-26#-247604654] stopped.
+2015-11-29 05:10:10,156 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:10:10,166 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-3 - Shutdown application default Akka system: application
+2015-11-29 05:10:10,436 [WARN] from application in application-akka.actor.default-dispatcher-9 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:10:11,003 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-9 - Starting application default Akka system: application
+2015-11-29 05:10:11,224 [WARN] from application in application-akka.actor.default-dispatcher-9 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:10:11,707 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin starting...
+2015-11-29 05:10:11,717 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:10:11,718 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2015-11-29 05:10:11,769 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 05:10:11,778 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 05:10:11,838 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:15:39,459 [ERROR] from application in New I/O worker #8 - 
+
+! @6o9kn771j - Internal server error, for (GET) [/ticket] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value ticket is not a member of String]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 05:16:44,061 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:16:44,062 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-8 - No mongo-async-driver configuration found
+2015-11-29 05:16:44,106 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-35#-1785689625] stopped.
+2015-11-29 05:16:44,106 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:16:44,117 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:16:44,156 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-32#655111976] stopped.
+2015-11-29 05:16:44,159 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:16:44,166 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:16:44,397 [WARN] from application in application-akka.actor.default-dispatcher-8 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:16:44,616 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-11-29 05:16:44,835 [WARN] from application in application-akka.actor.default-dispatcher-8 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:16:45,334 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin starting...
+2015-11-29 05:16:45,335 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:16:45,336 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2015-11-29 05:16:45,487 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 05:16:45,491 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 05:16:45,530 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:18:46,737 [INFO] from application in application-akka.actor.default-dispatcher-10 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:18:46,737 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-10 - No mongo-async-driver configuration found
+2015-11-29 05:18:46,827 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-41#-1640235366] stopped.
+2015-11-29 05:18:46,828 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:18:46,843 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi stopping...
+2015-11-29 05:18:46,868 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-38#368516467] stopped.
+2015-11-29 05:18:46,870 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:18:46,877 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-3 - Shutdown application default Akka system: application
+2015-11-29 05:18:46,969 [WARN] from application in application-akka.actor.default-dispatcher-10 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:18:47,164 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-10 - Starting application default Akka system: application
+2015-11-29 05:18:47,285 [WARN] from application in application-akka.actor.default-dispatcher-10 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:18:47,533 [INFO] from application in application-akka.actor.default-dispatcher-10 - ReactiveMongoPlugin starting...
+2015-11-29 05:18:47,534 [INFO] from application in application-akka.actor.default-dispatcher-10 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:18:47,534 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-10 - Application started (Dev)
+2015-11-29 05:18:47,563 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi starting...
+2015-11-29 05:18:47,566 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:18:47,647 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:19:59,639 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:19:59,640 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-9 - No mongo-async-driver configuration found
+2015-11-29 05:19:59,937 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-47#253389501] stopped.
+2015-11-29 05:19:59,938 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:19:59,944 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:19:59,992 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:19:59,993 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-44#549042809] stopped.
+2015-11-29 05:20:00,002 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:20:00,114 [WARN] from application in application-akka.actor.default-dispatcher-9 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:20:00,289 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-9 - Starting application default Akka system: application
+2015-11-29 05:20:00,470 [WARN] from application in application-akka.actor.default-dispatcher-9 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:20:00,673 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin starting...
+2015-11-29 05:20:00,673 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:20:00,674 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2015-11-29 05:20:00,696 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 05:20:00,699 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:20:00,732 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:21:33,903 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:21:33,904 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-8 - No mongo-async-driver configuration found
+2015-11-29 05:21:33,980 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:21:33,983 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-53#-1118778522] stopped.
+2015-11-29 05:21:33,992 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:21:34,028 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:21:34,029 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-50#-1311383442] stopped.
+2015-11-29 05:21:34,045 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:21:34,163 [WARN] from application in application-akka.actor.default-dispatcher-8 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:21:34,423 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-11-29 05:21:34,546 [WARN] from application in application-akka.actor.default-dispatcher-8 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:21:34,783 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin starting...
+2015-11-29 05:21:34,784 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:21:34,784 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2015-11-29 05:21:34,809 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 05:21:34,818 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 05:21:34,841 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:23:33,350 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:23:33,351 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 05:23:33,615 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-59#-1093568014] stopped.
+2015-11-29 05:23:33,616 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:23:33,627 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 05:23:33,677 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:23:33,675 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-56#1403487892] stopped.
+2015-11-29 05:23:33,707 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 05:23:33,895 [WARN] from application in application-akka.actor.default-dispatcher-7 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:23:34,769 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-7 - Starting application default Akka system: application
+2015-11-29 05:23:35,056 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:23:35,464 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin starting...
+2015-11-29 05:23:35,465 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:23:35,471 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-7 - Application started (Dev)
+2015-11-29 05:23:35,507 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 05:23:35,625 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:23:35,720 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:23:36,020 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-9 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:24:03,121 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:24:03,121 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:24:03,290 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:24:03,306 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-65#1413519173] stopped.
+2015-11-29 05:24:03,319 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:24:03,384 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-9 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-62#-550180155] stopped.
+2015-11-29 05:24:03,412 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:24:03,426 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:24:03,558 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:24:04,097 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 05:24:04,358 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:24:04,678 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 05:24:04,679 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:24:04,679 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 05:24:04,737 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi starting...
+2015-11-29 05:24:04,751 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:24:04,799 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:24:04,911 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:24:04,928 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:24:04,936 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:24:41,001 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:24:41,001 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:24:41,198 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-71#429205638] stopped.
+2015-11-29 05:24:41,200 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:24:41,206 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:24:41,260 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-68#-1183966013] stopped.
+2015-11-29 05:24:41,264 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:24:41,287 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:24:41,391 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:24:41,727 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 05:24:41,950 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:24:42,368 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 05:24:42,369 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:24:42,370 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 05:24:42,415 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 05:24:42,429 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 05:24:42,525 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:31:37,978 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:31:38,035 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-9 - No mongo-async-driver configuration found
+2015-11-29 05:31:38,190 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:31:38,191 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-77#-1825026836] stopped.
+2015-11-29 05:31:38,350 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 05:31:38,389 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-74#2083225342] stopped.
+2015-11-29 05:31:38,390 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:31:38,403 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 05:31:39,300 [WARN] from application in application-akka.actor.default-dispatcher-9 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:31:39,603 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-9 - Starting application default Akka system: application
+2015-11-29 05:31:40,031 [WARN] from application in application-akka.actor.default-dispatcher-9 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:31:40,402 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin starting...
+2015-11-29 05:31:40,402 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:31:40,403 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2015-11-29 05:31:40,460 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 05:31:40,463 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:31:40,481 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:33:59,243 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:33:59,243 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 05:33:59,322 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-83#-1605799942] stopped.
+2015-11-29 05:33:59,323 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:33:59,328 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:33:59,354 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-80#-1017722462] stopped.
+2015-11-29 05:33:59,357 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:33:59,368 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:33:59,480 [WARN] from application in application-akka.actor.default-dispatcher-7 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:33:59,683 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-7 - Starting application default Akka system: application
+2015-11-29 05:33:59,819 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:33:59,985 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin starting...
+2015-11-29 05:33:59,986 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:33:59,986 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-7 - Application started (Dev)
+2015-11-29 05:34:13,033 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 05:34:13,043 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 05:34:13,085 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:36:44,436 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:36:44,437 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:36:44,508 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-89#-1259559384] stopped.
+2015-11-29 05:36:44,509 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:36:44,526 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 05:36:44,553 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-86#-677458768] stopped.
+2015-11-29 05:36:44,555 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:36:44,568 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 05:36:44,628 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:36:44,906 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 05:36:45,052 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:36:45,254 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 05:36:45,255 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:36:45,255 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 05:36:45,277 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoApi starting...
+2015-11-29 05:36:45,299 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 05:36:45,313 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:38:14,551 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:38:14,551 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 05:38:14,766 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:38:14,766 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-95#-1461923476] stopped.
+2015-11-29 05:38:14,787 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 05:38:14,921 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:38:14,922 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-92#682933584] stopped.
+2015-11-29 05:38:14,946 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 05:38:15,254 [WARN] from application in application-akka.actor.default-dispatcher-5 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:38:15,547 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-5 - Starting application default Akka system: application
+2015-11-29 05:38:15,753 [WARN] from application in application-akka.actor.default-dispatcher-5 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:38:15,964 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin starting...
+2015-11-29 05:38:15,965 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:38:15,965 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2015-11-29 05:38:16,013 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 05:38:16,014 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:38:16,059 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:38:16,148 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:38:16,165 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:38:16,175 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - The entire node set is unreachable, is there a network problem?
+2015-11-29 05:59:53,327 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 05:59:53,360 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 05:59:53,729 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-101#823377282] stopped.
+2015-11-29 05:59:53,729 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 05:59:53,749 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi stopping...
+2015-11-29 05:59:53,816 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 05:59:53,817 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-98#1885482600] stopped.
+2015-11-29 05:59:53,829 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-3 - Shutdown application default Akka system: application
+2015-11-29 05:59:54,600 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 05:59:55,090 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 05:59:55,448 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 05:59:55,798 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 05:59:55,799 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 05:59:55,799 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 05:59:55,877 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 05:59:55,879 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 05:59:55,921 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:05:01,946 [ERROR] from application in New I/O worker #7 - 
+
+! @6o9l3jlae - Internal server error, for (POST) [/ticket/save] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Seq[play.api.data.FormError]
+ required: play.api.data.Form[models.TicketModel]]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 06:06:00,264 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:06:00,264 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:06:00,411 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:06:00,411 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-107#361299498] stopped.
+2015-11-29 06:06:00,461 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 06:06:00,481 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-104#701012382] stopped.
+2015-11-29 06:06:00,483 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:06:00,493 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 06:06:00,863 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:06:00,998 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:06:01,309 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:06:01,742 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:06:01,762 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:06:01,762 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:09:46,201 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:09:46,259 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:09:46,346 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-110#-1442220055] stopped.
+2015-11-29 06:09:46,347 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:09:46,357 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Shutdown application default Akka system: application
+2015-11-29 06:09:46,441 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:09:47,401 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:09:47,596 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:09:47,982 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:09:47,983 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:09:47,983 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:10:19,988 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:10:19,991 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-8 - No mongo-async-driver configuration found
+2015-11-29 06:10:20,034 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-113#972557761] stopped.
+2015-11-29 06:10:20,035 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:10:20,046 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Shutdown application default Akka system: application
+2015-11-29 06:10:20,121 [WARN] from application in application-akka.actor.default-dispatcher-8 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:10:20,237 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-11-29 06:10:20,325 [WARN] from application in application-akka.actor.default-dispatcher-8 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:10:20,518 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin starting...
+2015-11-29 06:10:20,519 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:10:20,519 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2015-11-29 06:10:47,064 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:10:47,065 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:10:47,178 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:10:47,180 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-116#-721354650] stopped.
+2015-11-29 06:10:47,193 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Shutdown application default Akka system: application
+2015-11-29 06:10:47,264 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:10:47,412 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:10:47,596 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:10:47,751 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:10:47,751 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:10:47,752 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:11:56,239 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:11:56,241 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 06:11:56,302 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-119#339307242] stopped.
+2015-11-29 06:11:56,303 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:11:56,403 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-5 - Shutdown application default Akka system: application
+2015-11-29 06:11:56,473 [WARN] from application in application-akka.actor.default-dispatcher-5 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:11:56,608 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-5 - Starting application default Akka system: application
+2015-11-29 06:11:56,754 [WARN] from application in application-akka.actor.default-dispatcher-5 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:11:56,906 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin starting...
+2015-11-29 06:11:56,907 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:11:56,907 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2015-11-29 06:12:32,074 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:12:32,076 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:12:32,114 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-122#1048245058] stopped.
+2015-11-29 06:12:32,115 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:12:32,119 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Shutdown application default Akka system: application
+2015-11-29 06:12:32,173 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:12:32,339 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:12:32,454 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:12:32,630 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:12:32,631 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:12:32,632 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:15:49,177 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:15:49,179 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:15:49,375 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-125#128100551] stopped.
+2015-11-29 06:15:49,376 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:15:49,404 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Shutdown application default Akka system: application
+2015-11-29 06:15:49,561 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:15:49,857 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:15:49,978 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:15:50,173 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:15:50,173 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:15:50,174 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:19:02,775 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:19:02,776 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:19:02,847 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - (State: Closing) SPURIOUS ChannelConnected(-948884543) (ignored, channel closed)
+2015-11-29 06:19:02,849 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:19:02,849 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-128#-2145653600] stopped.
+2015-11-29 06:19:02,859 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Shutdown application default Akka system: application
+2015-11-29 06:19:02,920 [WARN] from application in application-akka.actor.default-dispatcher-6 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:19:03,118 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Starting application default Akka system: application
+2015-11-29 06:19:03,261 [WARN] from application in application-akka.actor.default-dispatcher-6 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:19:03,492 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin starting...
+2015-11-29 06:19:03,493 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:19:03,493 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2015-11-29 06:19:41,229 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:19:41,231 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:19:41,310 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:19:41,310 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-131#657830563] stopped.
+2015-11-29 06:19:41,316 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Shutdown application default Akka system: application
+2015-11-29 06:19:41,372 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:19:41,480 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:19:41,583 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:19:41,779 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:19:41,780 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:19:41,780 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:20:03,668 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 06:20:03,669 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:20:03,691 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:24:19,640 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:24:19,685 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 06:24:19,775 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - (State: Closing) SPURIOUS ChannelConnected(-99836185) (ignored, channel closed)
+2015-11-29 06:24:19,776 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:24:19,777 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-137#330519545] stopped.
+2015-11-29 06:24:19,788 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 06:24:19,848 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-134#1660910781] stopped.
+2015-11-29 06:24:19,848 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:24:19,864 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 06:24:20,206 [WARN] from application in application-akka.actor.default-dispatcher-5 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:24:20,333 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-5 - Starting application default Akka system: application
+2015-11-29 06:24:20,687 [WARN] from application in application-akka.actor.default-dispatcher-5 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:24:21,394 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin starting...
+2015-11-29 06:24:21,394 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:24:21,394 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-5 - Application started (Dev)
+2015-11-29 06:24:21,981 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 06:24:21,984 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 06:24:22,002 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:25:39,170 [ERROR] from application in New I/O worker #5 - 
+
+! @6o9l6c5hf - Internal server error, for (GET) [/ticket/565936863400005200f5d455] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[illegal start of simple expression]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 06:26:00,755 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:26:00,755 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-9 - No mongo-async-driver configuration found
+2015-11-29 06:26:00,874 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:26:00,875 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-143#1622914605] stopped.
+2015-11-29 06:26:00,879 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:26:00,919 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:26:00,922 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-140#-872004336] stopped.
+2015-11-29 06:26:00,932 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:26:00,989 [WARN] from application in application-akka.actor.default-dispatcher-9 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:26:01,099 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-9 - Starting application default Akka system: application
+2015-11-29 06:26:01,479 [WARN] from application in application-akka.actor.default-dispatcher-9 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:26:01,651 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin starting...
+2015-11-29 06:26:01,652 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:26:01,652 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2015-11-29 06:26:01,704 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 06:26:01,706 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:26:01,717 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:26:01,789 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:27:21,862 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:27:21,863 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:27:21,942 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:27:21,944 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-149#2137008685] stopped.
+2015-11-29 06:27:21,963 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 06:27:21,999 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:27:21,999 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-146#-717620096] stopped.
+2015-11-29 06:27:22,030 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 06:27:22,086 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:27:22,180 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:27:22,252 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:27:22,411 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:27:22,412 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:27:22,412 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:27:46,202 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:27:46,203 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:27:46,234 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-152#1675225567] stopped.
+2015-11-29 06:27:46,235 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:27:46,248 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Shutdown application default Akka system: application
+2015-11-29 06:27:46,392 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:27:46,478 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:27:46,559 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:27:46,720 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:27:46,720 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:27:46,721 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:28:14,300 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:28:14,300 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:28:14,342 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-155#-308968827] stopped.
+2015-11-29 06:28:14,342 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:28:14,354 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Shutdown application default Akka system: application
+2015-11-29 06:28:14,404 [WARN] from application in application-akka.actor.default-dispatcher-6 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:28:14,570 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Starting application default Akka system: application
+2015-11-29 06:28:14,641 [WARN] from application in application-akka.actor.default-dispatcher-6 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:28:14,794 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin starting...
+2015-11-29 06:28:14,795 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:28:14,795 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2015-11-29 06:28:31,007 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:28:31,008 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:28:31,079 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:28:31,080 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-158#2133286000] stopped.
+2015-11-29 06:28:31,093 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Shutdown application default Akka system: application
+2015-11-29 06:28:31,139 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:28:31,242 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:28:31,320 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:28:31,464 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:28:31,464 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:28:31,465 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:32:15,480 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:32:15,493 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:32:15,699 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-161#31569552] stopped.
+2015-11-29 06:32:15,700 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:32:15,774 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Shutdown application default Akka system: application
+2015-11-29 06:32:16,141 [WARN] from application in application-akka.actor.default-dispatcher-6 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:32:16,242 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-6 - Starting application default Akka system: application
+2015-11-29 06:32:16,625 [WARN] from application in application-akka.actor.default-dispatcher-6 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:32:16,947 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin starting...
+2015-11-29 06:32:16,948 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:32:16,948 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-6 - Application started (Dev)
+2015-11-29 06:32:24,187 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 06:32:24,193 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 06:32:24,214 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:43:51,181 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:43:51,181 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-8 - No mongo-async-driver configuration found
+2015-11-29 06:43:51,510 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:43:51,510 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-167#-1880715342] stopped.
+2015-11-29 06:43:51,564 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi stopping...
+2015-11-29 06:43:51,591 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-164#-2064557538] stopped.
+2015-11-29 06:43:51,593 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:43:51,596 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-1 - Shutdown application default Akka system: application
+2015-11-29 06:43:51,672 [WARN] from application in application-akka.actor.default-dispatcher-8 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:43:51,780 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-11-29 06:43:51,942 [WARN] from application in application-akka.actor.default-dispatcher-8 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:43:52,243 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin starting...
+2015-11-29 06:43:52,244 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:43:52,245 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2015-11-29 06:43:52,282 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 06:43:52,283 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:43:52,323 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:45:28,693 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:45:28,694 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-11 - No mongo-async-driver configuration found
+2015-11-29 06:45:28,790 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-173#-350489498] stopped.
+2015-11-29 06:45:28,791 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:45:28,799 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:45:28,823 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-170#553329519] stopped.
+2015-11-29 06:45:28,824 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:45:28,837 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:45:29,027 [WARN] from application in application-akka.actor.default-dispatcher-11 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:45:29,160 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-11 - Starting application default Akka system: application
+2015-11-29 06:45:29,286 [WARN] from application in application-akka.actor.default-dispatcher-11 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:45:29,463 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin starting...
+2015-11-29 06:45:29,463 [INFO] from application in application-akka.actor.default-dispatcher-11 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:45:29,464 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-11 - Application started (Dev)
+2015-11-29 06:45:29,494 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 06:45:29,502 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:45:29,540 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:48:15,919 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:48:15,920 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-9 - No mongo-async-driver configuration found
+2015-11-29 06:48:15,987 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 - (State: Closing) SPURIOUS ChannelConnected(1231478925) (ignored, channel closed)
+2015-11-29 06:48:15,988 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-179#-1986581410] stopped.
+2015-11-29 06:48:15,992 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:48:16,016 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:48:16,035 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:48:16,035 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-176#-1849125734] stopped.
+2015-11-29 06:48:16,045 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:48:16,109 [WARN] from application in application-akka.actor.default-dispatcher-9 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:48:16,201 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-9 - Starting application default Akka system: application
+2015-11-29 06:48:16,311 [WARN] from application in application-akka.actor.default-dispatcher-9 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:48:16,473 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin starting...
+2015-11-29 06:48:16,473 [INFO] from application in application-akka.actor.default-dispatcher-9 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:48:16,474 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-9 - Application started (Dev)
+2015-11-29 06:48:16,533 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi starting...
+2015-11-29 06:48:16,534 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 06:48:16,553 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:48:16,593 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:48:16,607 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:50:21,094 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:50:21,095 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:50:21,205 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-185#1175197855] stopped.
+2015-11-29 06:50:21,208 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:50:21,230 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 06:50:21,286 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-182#2073480597] stopped.
+2015-11-29 06:50:21,290 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:50:21,299 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 06:50:21,388 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:50:21,531 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:50:21,600 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:50:21,760 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:50:21,760 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:50:21,761 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:50:21,784 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi starting...
+2015-11-29 06:50:21,791 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-6 - No mongo-async-driver configuration found
+2015-11-29 06:50:21,810 [INFO] from application in application-akka.actor.default-dispatcher-6 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:50:21,860 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-9 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:50:21,866 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-9 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:51:11,204 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:51:11,204 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:51:11,406 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-191#1352264184] stopped.
+2015-11-29 06:51:11,407 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:51:11,463 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:51:11,504 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-188#-1032415596] stopped.
+2015-11-29 06:51:11,508 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:51:11,516 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:51:11,649 [WARN] from application in application-akka.actor.default-dispatcher-2 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:51:11,946 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-2 - Starting application default Akka system: application
+2015-11-29 06:51:12,087 [WARN] from application in application-akka.actor.default-dispatcher-2 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:51:12,321 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin starting...
+2015-11-29 06:51:12,322 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:51:12,322 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-2 - Application started (Dev)
+2015-11-29 06:51:12,371 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi starting...
+2015-11-29 06:51:12,374 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-5 - No mongo-async-driver configuration found
+2015-11-29 06:51:12,464 [INFO] from application in application-akka.actor.default-dispatcher-5 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:51:12,532 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:54:52,424 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:54:52,424 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-7 - No mongo-async-driver configuration found
+2015-11-29 06:54:52,485 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-197#1483463818] stopped.
+2015-11-29 06:54:52,488 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:54:52,498 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 06:54:52,524 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:54:52,532 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-194#-480409441] stopped.
+2015-11-29 06:54:52,540 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 06:54:52,612 [WARN] from application in application-akka.actor.default-dispatcher-7 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:54:52,744 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-7 - Starting application default Akka system: application
+2015-11-29 06:54:52,837 [WARN] from application in application-akka.actor.default-dispatcher-7 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:54:53,015 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin starting...
+2015-11-29 06:54:53,015 [INFO] from application in application-akka.actor.default-dispatcher-7 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:54:53,016 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-7 - Application started (Dev)
+2015-11-29 06:54:53,037 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi starting...
+2015-11-29 06:54:53,040 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-2 - No mongo-async-driver configuration found
+2015-11-29 06:54:53,056 [INFO] from application in application-akka.actor.default-dispatcher-2 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:54:53,099 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:54:53,790 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - The entire node set is unreachable, is there a network problem?
+2015-11-29 06:55:49,708 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:55:49,708 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:55:49,767 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-203#1698477067] stopped.
+2015-11-29 06:55:49,772 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:55:49,788 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi stopping...
+2015-11-29 06:55:49,827 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-200#-2072156849] stopped.
+2015-11-29 06:55:49,827 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:55:49,855 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-3 - Shutdown application default Akka system: application
+2015-11-29 06:55:49,999 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:55:50,187 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:55:50,357 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:55:50,573 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:55:50,574 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:55:50,575 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:55:50,598 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 06:55:50,604 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 06:55:50,624 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:56:35,360 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:56:35,361 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:56:35,415 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-209#1256789024] stopped.
+2015-11-29 06:56:35,416 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:56:35,430 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:56:35,468 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-206#1343920144] stopped.
+2015-11-29 06:56:35,468 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:56:35,518 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:56:35,642 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:56:35,795 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:56:35,866 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:56:36,027 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:56:36,028 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:56:36,028 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:56:36,046 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 06:56:36,048 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:56:36,068 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:57:45,684 [ERROR] from application in New I/O worker #4 - 
+
+! @6o9lahldl - Internal server error, for (GET) [/ticket] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[Not parsed?]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.6.jar:na]
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:60) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:305) ~[na:na]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:113) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at play.core.server.DevServerStart$$anonfun$mainDev$1$$anon$1$$anonfun$get$1.apply(DevServerStart.scala:111) ~[play-server_2.11-2.4.0.jar:2.4.0]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.6.jar:na]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40) ~[akka-actor_2.11-2.3.11.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) ~[akka-actor_2.11-2.3.11.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.6.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.6.jar:na]
+2015-11-29 06:58:03,160 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 06:58:03,160 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:58:03,299 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 06:58:03,299 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-215#1591771492] stopped.
+2015-11-29 06:58:03,305 [INFO] from application in ForkJoinPool-3-worker-7 - ReactiveMongoApi stopping...
+2015-11-29 06:58:03,356 [INFO] from application in ForkJoinPool-3-worker-3 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 06:58:03,370 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-212#-953175282] stopped.
+2015-11-29 06:58:03,377 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-7 - Shutdown application default Akka system: application
+2015-11-29 06:58:03,436 [WARN] from application in application-akka.actor.default-dispatcher-4 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 06:58:03,549 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-4 - Starting application default Akka system: application
+2015-11-29 06:58:03,655 [WARN] from application in application-akka.actor.default-dispatcher-4 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 06:58:03,859 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin starting...
+2015-11-29 06:58:03,859 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 06:58:03,860 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-4 - Application started (Dev)
+2015-11-29 06:58:04,130 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi starting...
+2015-11-29 06:58:04,131 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-4 - No mongo-async-driver configuration found
+2015-11-29 06:58:04,167 [INFO] from application in application-akka.actor.default-dispatcher-4 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 07:00:13,687 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin stops, closing connections...
+2015-11-29 07:00:13,745 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-8 - No mongo-async-driver configuration found
+2015-11-29 07:00:13,811 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongo Connections stopped. [Success(Closed)]
+2015-11-29 07:00:13,813 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-221#-669664694] stopped.
+2015-11-29 07:00:13,821 [INFO] from application in ForkJoinPool-3-worker-5 - ReactiveMongoApi stopping...
+2015-11-29 07:00:13,854 [WARN] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 - MongoDBSystem Actor[akka://reactivemongo/user/Connection-218#241492726] stopped.
+2015-11-29 07:00:13,855 [INFO] from application in ForkJoinPool-3-worker-1 - ReactiveMongoApi connections stopped. [Success(Closed)]
+2015-11-29 07:00:13,865 [INFO] from play.api.libs.concurrent.ActorSystemProvider in ForkJoinPool-3-worker-5 - Shutdown application default Akka system: application
+2015-11-29 07:00:13,955 [WARN] from application in application-akka.actor.default-dispatcher-8 - Logger configuration in conf files is deprecated and has no effect. Use a logback configuration file instead.
+2015-11-29 07:00:14,230 [INFO] from play.api.libs.concurrent.ActorSystemProvider in application-akka.actor.default-dispatcher-8 - Starting application default Akka system: application
+2015-11-29 07:00:14,491 [WARN] from application in application-akka.actor.default-dispatcher-8 - application.langs is deprecated, use play.i18n.langs instead
+2015-11-29 07:00:14,700 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin starting...
+2015-11-29 07:00:14,700 [INFO] from application in application-akka.actor.default-dispatcher-8 - ReactiveMongoPlugin successfully started with db 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 07:00:14,701 [INFO] from play.api.Play$ in application-akka.actor.default-dispatcher-8 - Application started (Dev)
+2015-11-29 07:00:14,721 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi starting...
+2015-11-29 07:00:14,723 [WARN] from reactivemongo.api.MongoDriver in application-akka.actor.default-dispatcher-3 - No mongo-async-driver configuration found
+2015-11-29 07:00:14,742 [INFO] from application in application-akka.actor.default-dispatcher-3 - ReactiveMongoApi successfully started with DB 'ticketlog'! Servers:
+		[localhost:27017]
+2015-11-29 07:00:14,777 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 - The entire node set is unreachable, is there a network problem?
+2015-11-29 07:00:14,799 [ERROR] from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 - The entire node set is unreachable, is there a network problem?

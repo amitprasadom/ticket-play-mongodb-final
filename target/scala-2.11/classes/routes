@@ -1,0 +1,25 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET         /                         controllers.Application.index
+
+# ticket list (look at the default values for pagination parameters)
+GET         /ticket                   controllers.Application.list(p: Int ?= 0, s: Int ?= 2, f ?= "")
+
+# Add ticket
+GET         /ticket/new               controllers.Application.create
+POST        /ticket/save              controllers.Application.save
+
+# Edit existing ticket
+GET         /ticket/:id               controllers.Application.edit(id: String)
+POST        /ticket/:id               controllers.Application.update(id: String)
+
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file             controllers.Assets.at(path="/public", file)
+
+# Map the webjar static assets to the /webjars URL
+GET         /webjars/*file            controllers.WebJarAssets.at(file)

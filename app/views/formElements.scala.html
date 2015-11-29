@@ -1,0 +1,16 @@
+@(ticketForm: Form[TicketModel])(implicit msg: play.api.i18n.Messages)
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.f) }
+
+
+@inputText(ticketForm("custname"), '_label -> "Cust Name*", 'class -> "form-control")
+@inputText(ticketForm("custmobile"), '_label -> "Cust Mobile*", 'class -> "form-control",'type->"number", '_showConstraints -> true,
+'_error -> "Force an error",'_showErrors -> true)
+@textarea(ticketForm("custaddress"), '_label -> "Address*", 'class -> "form-control")
+@inputText(ticketForm("pincode"), '_label -> "Pincode*", 'class -> "form-control",'type->"number",'size->"6")
+@inputText(ticketForm("createdby"), '_label -> "Created By*", 'class -> "form-control")
+@inputText(ticketForm("assignedto"), '_label -> "Assigned To", 'class -> "form-control",'id->"id-assignto")
+@inputText(ticketForm("status"), '_label -> "status", 'class -> "form-control",'readonly->true,'id->"status",'value->"new")
+@textarea(ticketForm("remark"), '_label -> "Remarks", 'class -> "form-control")
