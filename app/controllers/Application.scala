@@ -39,9 +39,9 @@ class Application @Inject() (
     mapping(
       "id" -> ignored(BSONObjectID.generate: BSONObjectID),
       "custname" -> nonEmptyText,
-      "custmobile" -> nonEmptyText(maxLength = 10),
+      "custmobile" -> nonEmptyText(maxLength = 10,minLength=10),
       "custaddress" -> nonEmptyText,
-      "pincode" ->nonEmptyText(maxLength = 6),
+      "pincode" ->nonEmptyText(maxLength = 6,minLength=6),
       "createdby" -> nonEmptyText,
       "assignedto" -> text,
       "remark" -> nonEmptyText,
@@ -125,7 +125,8 @@ class Application @Inject() (
       },
       ticket => {
         val newdate = new Date();
-        val futureTicket = collection.update(Json.obj("_id" -> Json.obj("$oid" -> id)), ticket.copy(_id = BSONObjectID(id),closeddate = new Date))
+        val finalStatus = if(ticket.assignedto.trim.length==0) "new" else "open"
+        val futureTicket = collection.update(Json.obj("_id" -> Json.obj("$oid" -> id)), ticket.copy(_id = BSONObjectID(id),closeddate = new Date,status = finalStatus))
          futureTicket.map { result =>
           Home.flashing("success" -> s"Ticket ${id.substring(0,10)} has been updated")
         }.recover {
@@ -165,10 +166,11 @@ class Application @Inject() (
       },
       ticket => {
 
-
-        val futureUpdateTicket = collection.insert(ticket.copy(_id = BSONObjectID.generate))
+        val newID =   BSONObjectID.generate
+        val finalStatus = if(ticket.assignedto.trim.length==0) "new" else "open"
+        val futureUpdateTicket = collection.insert(ticket.copy(_id = newID,status = finalStatus ))
         futureUpdateTicket.map { result =>
-          Home.flashing("success" -> s"Your new ticket number is   ${ticket._id.stringify.substring(0,10)} ")
+          Home.flashing("success" -> s"Your new ticket number is   ${newID.stringify.substring(0,10)} ")
         }.recover {
           case t: TimeoutException =>
 
